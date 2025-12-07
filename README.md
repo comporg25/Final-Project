@@ -136,4 +136,34 @@ You should see:
     syscall
     ````
 
+## Solution
+## How to Run
+
+### Prerequisites
+
+- Linux x86-64 (or WSL)
+- `as` and `ld` from GNU binutils (usually installed with `build-essential`)
+- Java (JDK) installed (`javac` and `java` available in your PATH)
+
+### 1. Compile the Java compiler
+
+From the folder containing `ForthCompiler.java`:
+
+```bash
+javac ForthCompiler.java
+````
+Then run the below command, providing the path for the `code.fs` forth file:
+
+```bash
+java ForthCompiler ./code.fs
+````
+
+After running the program you should get the executable `code` file.
+Then run that as usual:
+
+```bash
+./code
+````
+
+You should get the answer.
 
