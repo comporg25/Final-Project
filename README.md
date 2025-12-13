@@ -139,6 +139,11 @@ You should see:
 ## Solution
 ## How to Run
 
+From the project directory, execute the following commands:
+
+	```bash
+	make
+	./code
 ### Prerequisites
 
 - Linux x86-64 (or WSL)
